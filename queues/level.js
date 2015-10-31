@@ -1,8 +1,8 @@
-var leveldown = require('levelup');
+var levelup = require('levelup');
 var peek = require('level-peek');
 
 function LevelQueue() {
-  this.queue = leveldown('./queue');
+  this.queue = levelup('./queue');
   this.queue.open(function(err) {
     console.log('open: ', err ? 'NO' : 'YES');
   });
