@@ -1,0 +1,19 @@
+{
+  "name": "mqttfun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "level-peek": "^2.0.0",
+    "levelup": "^1.2.1",
+    "mosca": "^0.32.1",
+    "mqtt": "oroce/mqtt.js#async-queue",
+    "redis": "^2.3.0"
+  }
+}
